@@ -1,4 +1,4 @@
-package br.com.teste.bean;
+package br.com.teste.controller;
 
 import java.io.Serializable;
 import java.util.ArrayList;
@@ -33,23 +33,23 @@ public class TesteBean implements Serializable{
 		listEstados.add("SC");
 		
 		listPaises.add("Brasil");
-		listPaises.add("Bulgária");
-		listPaises.add("Bélgica");
+		listPaises.add("Bulgï¿½ria");
+		listPaises.add("Bï¿½lgica");
 		listPaises.add("Argentina");
-		listPaises.add("Canadá");
+		listPaises.add("Canadï¿½");
 		listPaises.add("Chile");
 	}
 	
 	public void carregarCidades() {
 		listCidades.clear();
 		if (estado.equals("RJ")) {
-			listCidades.add("Niterói");
+			listCidades.add("Niterï¿½i");
 			listCidades.add("Rio das Ostras");
 			listCidades.add("Rio de Janeiro");
 		} else if (estado.equals("SP")) {
 			listCidades.add("Barueri");
 			listCidades.add("Santos");
-			listCidades.add("São Paulo");
+			listCidades.add("Sï¿½o Paulo");
 		} else if (estado.equals("MG")) {
 			listCidades.add("Belo Horizonte");
 		}
@@ -66,7 +66,7 @@ public class TesteBean implements Serializable{
 		if (login.equals("rodrigo")) {
 			Messages.addGlobalWarn("Login em uso");
 		} else {
-			Messages.addGlobalInfo("Login disponível!");
+			Messages.addGlobalInfo("Login disponï¿½vel!");
 		}
 	}
 	
